@@ -32,10 +32,10 @@ app.post("/", function(req, res) {
 
     const jsonData = JSON.stringify(data);
 
-    const url = "https://us7.api.mailchimp.com/3.0/lists/4b307b4c57"
+    const url = "YOUR API URL"
     const options = {
         method: "POST",
-        auth: "nahii:36a7a1db7e17187ecb401cf9f4fd336c-us7"
+        auth: "nahii:*YOUR API KEY*"
     };
 
     const https = require('https');
